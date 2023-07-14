@@ -1,0 +1,3 @@
+MinIOのテスト１
+MinIOのテスト２
+MinIOのテスト３
