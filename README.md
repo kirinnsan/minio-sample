@@ -1,3 +1,6 @@
+MinIOは、Amazon S3と互換があるオブジェクトストレージ。  
+ローカル上にDocker ComposeでMinIOを作成する。
+
 ### コンテナ起動
 ```
 docker-compose up -d
