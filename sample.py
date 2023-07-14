@@ -81,8 +81,8 @@ if __name__ == '__main__':
     s3_resource = boto3.resource(
         's3',
         endpoint_url='http://localhost:9000',
-        aws_access_key_id='root', # ログイン名
-        aws_secret_access_key='password', # ログインパスワード
+        aws_access_key_id='root', # docker-compose.pyのMINIO_ROOT_USERの値
+        aws_secret_access_key='password', # docker-compose.pyのMINIO_ROOT_PASSWORDの値
     )
 
     bucket_name = "minio-sample"
